@@ -28,8 +28,8 @@ The pipeline went through a series of steps:
   >
   > * Right lane: x increases, while y increases
   >
-  >Once we separate the line into either or, we can then find the average of their points to create an average lane line from 
-  >all the lines. Arbitrary y1 and y2 for the lines are given by the image's shape to look consistent. 
+  >Once we separate the segment into either or, we can then find the average of their points to create an average lane line from 
+  >all the segments. Arbitrary y1 and y2 for the final lines are given by the image's shape to look consistent. 
   
 6. Apply the new averaged lines to original image
 
