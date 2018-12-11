@@ -22,7 +22,7 @@ The pipeline went through a series of steps:
 4. Create a masked area to focus on 
 5. Hough lines and modify `draw_lines()` to draw one straight line
 
-  >Modifying `draw_lines()` was done by finding which points belonged to which line through their slope. 
+  >Modifying `draw_lines()` was done by finding which points belonged to which lane line through their slope. 
   >
   > * Left lane: x increases, while y decreases 
   >
