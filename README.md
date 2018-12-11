@@ -22,11 +22,11 @@ The pipeline went through a series of steps:
 4. Create a masked area to focus on 
 5. Hough lines and modify `draw_lines()` to draw one straight line
 
-  >Modifing `draw_lines()` was done by finding which points belonged to which line. 
+  >Modifying `draw_lines()` was done by finding which points belonged to which line through their slope. 
   >
-  >Left lane: x increases, while y decreases 
+  > * Left lane: x increases, while y decreases 
   >
-  >Right lane: x increases, while y increases
+  > * Right lane: x increases, while y increases
   >
   >Once we separate the line into either or, we can then find the average of their points to create an average lane line from 
   >all the lines. Arbitrary y1 and y2 for the lines are given by the image's shape to look consistent. 
