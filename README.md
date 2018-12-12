@@ -36,9 +36,9 @@ The pipeline went through a series of steps:
 
 ### Shortcomings with current pipeline
 
-* Being dynamic. A road consists of much more than straight paths, so a cruve will most definitely show this pipeline's weaknesses. 
+* Being dynamic. A road consists of much more than straight paths, so a curve will most definitely show this pipeline's weaknesses. 
 * Shadows. I tried my implementation with the `challenge.mp4` and the shadows would trip up the lines.
-* The values for kernel, rho, and etc. I feel like they're arbitrary. They only look good for a certain image quality. I feel like given another video or image of a different format, size, quality, and etc would make me change values of the region of interest and other varibles.   
+* The values for kernel, rho, and etc. I feel like they're arbitrary. They only look good for a certain image quality. I feel like given another video or image of a different format, size, or quality would make me change values of the region of interest and other varibles.   
 
 ### Improvements
 
