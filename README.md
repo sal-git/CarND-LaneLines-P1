@@ -7,7 +7,7 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-| Orginal | Original w/ lane lines |
+| Original  | Original w/ lane lines |
 | --- | --- |
 | ![Original](https://github.com/sal-git/CarND-LaneLines-P1/blob/master/images/solidWhiteCurve.jpg?raw=true) | ![New](https://github.com/sal-git/CarND-LaneLines-P1/blob/master/images_output/after-solidWhiteCurve.jpg?raw=true) |
 
